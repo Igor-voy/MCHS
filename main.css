@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+  	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	font-size: 14px;
+	background-color: #003E78;
+}
+
+.login{
+	background: #014E86;
+	border: 10px solid #67A3FE;
+  	border-top-left-radius: 60px;
+  	border-top-right-radius: 60px;
+  	border-bottom-left-radius: 60px;
+  	border-bottom-right-radius: 60px;
+	height: 350px;
+}
+
+.form-control{
+	height: 40px;
+}
+
+.name-1{
+	font-weight: Bold;
+	color: white;
+}
+
+.line{
+	border: none;
+    background-color: #67A3FE; 
+    color: #67A3FE; 
+    height: 3px; 
+}
+
+
+
+
