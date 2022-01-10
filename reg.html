@@ -47,45 +47,9 @@
 
                         <div class="row">
                             <div class="col"></div>
-                            <label for="inputsurname" class="col-4 col-form-label"><h3 class="name-2">Фамилия</h3></label>
-                            <div class="col-5">
-                            <input type="text" class="form-control" id="inputsurname" placeholder="Фамилия">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col"></div>
-                            <label for="inputname" class="col-4 col-form-label"><h3 class="name-2">Имя</h3></label>
-                            <div class="col-5">
-                            <input type="text" class="form-control" id="inputname" placeholder="Имя">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col"></div>
-                            <label for="inputpatronymic" class="col-4 col-form-label"><h3 class="name-2">Отчество</h3></label>
-                            <div class="col-5">
-                            <input type="text" class="form-control" id="inputpatronymic" placeholder="Отчество">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col"></div>
-                            <label for="inputlogin" class="col-4 col-form-label"><h3 class="name-2">Логин</h3></label>
-                            <div class="col-5">
-                            <input type="text" class="form-control" id="inputlogin" placeholder="Логин">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col"></div>
                             <label for="inputemail" class="col-4 col-form-label"><h3 class="name-2">E-mail</h3></label>
                             <div class="col-5">
-                            <input type="email" class="form-control" id="inputemail" placeholder="E-mail">
+                            <input type="email" name="mail" class="form-control" id="inputemail" placeholder="E-mail" required>
                             </div>
                             <div class="col"></div>
                         </div>
@@ -94,7 +58,7 @@
                             <div class="col"></div>
                             <label for="inputpassword" class="col-4 col-form-label"><h3 class="name-2">Пароль</h3></label>
                             <div class="col-5">
-                            <input type="password" class="form-control" id="inputpassword" placeholder="Пароль">
+                            <input type="password" name="pass" class="form-control" minlength="8" required id="inputpassword" placeholder="Пароль">
                             </div>
                             <div class="col"></div>
                         </div>
@@ -102,7 +66,7 @@
                         <div class="row mt-4">
                             <div class="col"></div>
                             <div class="col-9">
-                                <button type="#" src="#" class="button">Зарегистрироваться</button>
+                                <button type="submit" src="#" class="button">Зарегистрироваться</button>
                             </div>
                             <div class="col"></div>
                         </div>

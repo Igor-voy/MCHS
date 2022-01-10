@@ -9,7 +9,7 @@ html, body{
 }
 
 .header{
-	height: 50px;
+	height: 100px;
 }
 
 
@@ -34,7 +34,7 @@ html, body{
   	border-top-right-radius: 60px;
   	border-bottom-left-radius: 60px;
   	border-bottom-right-radius: 60px;
-	height: 500px;
+	height: 300px;
 }
 
 .form-control{

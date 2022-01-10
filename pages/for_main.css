@@ -9,8 +9,10 @@ html, body{
 }
 
 .name-1{
+	display: flex;
 	font-weight: Bold;
 	color: white;
+	align-items: center;
 }
 
 .img-1{
@@ -54,3 +56,4 @@ html, body{
     text-decoration: none;
     color: #014E86;
 }
+
